@@ -1,0 +1,25 @@
+{
+  "experiment_name": "AC_model_gmm",
+  "cluster": "A1",
+  "method": "gmm",
+  "fleet_id": "example_fleet",
+  "n_cdrs_per_week": 100,
+  "n_weeks": 10,
+"cluster_map": {
+    "AC": {
+      "00010": "A1",
+      "001000": "A2",
+      "00101": "A3",
+      "00110": "A4",
+      "100": "B1",
+      "1011": "B2",
+      "11": "B3"
+    },
+    "DC": {
+      "0100": "D1",
+      "01013": "D2",
+      "011": "D3",
+      "11": "C1"
+    }
+  }
+}
