@@ -1,6 +1,6 @@
 # FleetCdrSynthesis
 
-A research tool for hierarchical clustering and synthetic generation of electric vehicle charge detail records (CDRs). This package accompanies the journal paper "Behavioral modeling of corporate charging hubs introducing a novel clustering method" in the journal "Energy and AI".
+A research tool for hierarchical clustering and synthetic generation of electric vehicle charge detail records (CDRs). This package accompanies the journal paper "Behavioral modeling of corporate charging hubs introducing a novel clustering method" in the journal "Energy and AI". All models are hosted on this website: [FleetChargePlanner](https://fleetchargeplanner.isea.rwth-aachen.de)
 
 ## Repository organization
 
