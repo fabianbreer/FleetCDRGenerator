@@ -827,7 +827,7 @@ class ClusterTreeModel():
         try:
             df_root = pd.read_csv(f'{self.dataloader.data_path}/power_demands_analysis/weekday_weekend_average/{fleet_id}_weekday_weekend_average.csv')
         except FileNotFoundError:
-            print(f"File not found for fleet {fleet_id}")
+            print(f"File not found for fleet {fleet_id}. Trying to calculate from charging data...")
             try:
                 df_cdrs = pd.read_csv(f'{self.dataloader.data_path}/power_demands/cdrs/{fleet_id}_cdrs.csv')
                 charging_data, charging_data_dict = find_p_demand_for_each_charging_event_from_charging_data(df_cdrs, self.dataloader.base_path)
